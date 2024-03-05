@@ -21,7 +21,7 @@ function install() {
 	fi
 }
 
-installing nginx #installing nginx
+install nginx #installing nginx
 
 echo -e "\nSet up some minor stuff.\n"
 
