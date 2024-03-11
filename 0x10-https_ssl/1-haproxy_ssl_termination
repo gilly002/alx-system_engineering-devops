@@ -47,5 +47,5 @@ frontend gillyconsult-frontend-https
 
 backend gillyconsult-backend
         balance roundrobin
-        server 151666-web-01 100.25.190.190:80 check
-        server 151666-web-02 54.90.32.204:80 check
+        server 423139-web-01 100.25.190.190:80 check
+        server 423139-web-02 54.90.32.204:80 check
