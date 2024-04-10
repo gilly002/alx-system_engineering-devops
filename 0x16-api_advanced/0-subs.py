@@ -8,7 +8,7 @@ from sys import argv
 
 def number_of_subscribers(subreddit):
     '''
-        this returns the number of subscribers for a given subreddit
+        returns the number of subscribers for a given subreddit
     '''
     user = {'User-Agent': 'Lizzie'}
     url = requests.get('https://www.reddit.com/r/{}/about.json'

@@ -8,7 +8,7 @@ from sys import argv
 
 def top_ten(subreddit):
     '''
-        this returns the top ten posts for a given subreddit
+        returns the top ten posts for a given subreddit
     '''
     user = {'User-Agent': 'Lizzie'}
     url = requests.get('https://www.reddit.com/r/{}/hot/.json?limit=10'
